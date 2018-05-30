@@ -5,7 +5,7 @@ $(document).ready(function () {
     var crystal2 = Math.floor(Math.random() * 11 + 1)
     var crystal3 = Math.floor(Math.random() * 11 + 1)
     var crystal4 = Math.floor(Math.random() * 11 + 1)
-    
+
     //  generate random number to match and put it in #div3
     var targetNumber = Math.floor((Math.random() * 101) + 19)
     $('#targetNumber').text(targetNumber);
@@ -15,7 +15,6 @@ $(document).ready(function () {
     var userTotal = 0;
     var wins = 0;
     var losses = 0;
-    //  Decaring variables for tallies
     $('#numberWins').text(wins);
     $('#numberLosses').text(losses);
 
