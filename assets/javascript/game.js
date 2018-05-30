@@ -12,11 +12,13 @@ $(document).ready(function () {
     console.log("target number", targetNumber);
 
     //  wins and losses tally keeper for #div4
-    var userTotal = 0;
     var wins = 0;
     var losses = 0;
     $('#numberWins').text(wins);
     $('#numberLosses').text(losses);
+
+    var playerTotal = 0;
+    $('#playerTotal').text(playerTotal);
 
 
 
