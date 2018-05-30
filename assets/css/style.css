@@ -1,5 +1,5 @@
 body {
-    background-image: url("../../assets/images/colorful_tessellation_by_theshadowrider123-d4j7sat.jpg");
+    background-image: url("../../assets/images/187531420.jpg");
     background-repeat: repeat;
     background-color: aquamarine;
     text-align: center;
@@ -9,32 +9,37 @@ body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-/* div {
-    border: solid;
-} */
+div {
+    /* border: solid; */
+    margin: 6px;
+}
 
 .button {
-    background-color: #4CAF50; /* Green */
+    background-color: rgb(172, 204, 173);
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 15px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
 }
 
+/* crystals collector header */
 #div1 {
     background-color: #c97125;
     padding: 10px 0;
+    color: #fff;
 }
 
+/* game directions */
 #div2 {
     background-color: #fbe6cd;
     text-align: left;
+    color: #4bac6b;
 }
 
-#div3 {
+#targetNumber {
     background-color: #5bc880;
 }
 
@@ -42,8 +47,10 @@ body {
     background-color: #4afdf9;
 }
 
+/* crystal buttons live here */
 #div5 {
-    background-color: #fff;
+    /* background-color: #fff; */
+    margin: 0px;
 }
 
 #div6 {
