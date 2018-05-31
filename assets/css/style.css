@@ -40,18 +40,21 @@ div {
     background-color: #fbe6cd;
     text-align: left;
     color: #4bac6b;
+    padding: 10px 0 0 10px;
 }
 
 /* target number */
 #div3 {
     background-color: #5bc880;
-    height: 107px;
+    height: 109px;
+    padding: 10px 0 0 10px;
 }
 
 /* wins and losses */
 #div4 {
     background-color: #4afdf9;
-    height: 107px;
+    height: 109px;
+    padding: 20px 0 0 10px;
 }
 
 /* crystal buttons live here */
@@ -71,5 +74,6 @@ div {
 #div7 {
     background-color: #2ba294;
     color: #fff;
-    height: 107px;
+    height: 109px;
+    padding: 10px 0 0 10px;
 }

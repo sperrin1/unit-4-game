@@ -9,7 +9,7 @@ $(document).ready(function () {
     //  generate random number to match and put it in #div3
     var targetNumber = Math.floor((Math.random() * 101) + 19)
     $('#targetNumber').text(targetNumber);
-    console.log("target number", targetNumber);
+    // console.log("target number", targetNumber);
 
     //  wins and losses tally keeper for #div4
     var wins = 0;
@@ -23,7 +23,7 @@ $(document).ready(function () {
     //resets the game
     function reset() {
         targetNumber = Math.floor(Math.random() * 101 + 19);
-        console.log(targetNumber)
+        // console.log(targetNumber)
         $('#randomNumber').text(targetNumber);
         num1 = Math.floor(Math.random() * 11 + 1);
         num2 = Math.floor(Math.random() * 11 + 1);
@@ -50,7 +50,7 @@ $(document).ready(function () {
     //functions for jewel buttons
     $('#crystal1').on('click', function () {
         playerTotal = playerTotal + crystal1;
-        console.log("New playerTotal= " + playerTotal);
+        // console.log("New playerTotal= " + playerTotal);
         $('#playerScore').text(playerTotal);
         //sets win/lose conditions
         if (playerTotal == targetNumber) {
@@ -62,8 +62,9 @@ $(document).ready(function () {
     })
     $('#crystal2').on('click', function () {
         playerTotal = playerTotal + crystal2;
-        console.log("New playerTotal= " + playerTotal);
+        // console.log("New playerTotal= " + playerTotal);
         $('#playerScore').text(playerTotal);
+        //sets win/lose conditions
         if (playerTotal == targetNumber) {
             winna();
         }
@@ -73,7 +74,7 @@ $(document).ready(function () {
     })
     $('#crystal3').on('click', function () {
         playerTotal = playerTotal + crystal3;
-        console.log("New playerTotal= " + playerTotal);
+        // console.log("New playerTotal= " + playerTotal);
         $('#playerScore').text(playerTotal);
         //sets win/lose conditions
         if (playerTotal == targetNumber) {
@@ -85,9 +86,9 @@ $(document).ready(function () {
     })
     $('#crystal4').on('click', function () {
         playerTotal = playerTotal + crystal4;
-        console.log("New playerTotal= " + playerTotal);
+        // console.log("New playerTotal= " + playerTotal);
         $('#playerScore').text(playerTotal);
-
+        //sets win/lose conditions
         if (playerTotal == targetNumber) {
             winna();
         }
