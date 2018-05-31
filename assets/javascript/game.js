@@ -30,7 +30,7 @@ $(document).ready(function () {
         num3 = Math.floor(Math.random() * 11 + 1);
         num4 = Math.floor(Math.random() * 11 + 1);
         playerTotal = 0;
-        $('#finalTotal').text(playerTotal);
+        $('#playerScore').text(playerTotal);
     }
     //adds the wins to the playerTotal
     function winna() {
@@ -51,7 +51,7 @@ $(document).ready(function () {
     $('#crystal1').on('click', function () {
         playerTotal = playerTotal + crystal1;
         console.log("New playerTotal= " + playerTotal);
-        $('#finalTotal').text(playerTotal);
+        $('#playerScore').text(playerTotal);
         //sets win/lose conditions
         if (playerTotal == targetNumber) {
             winna();
@@ -63,7 +63,7 @@ $(document).ready(function () {
     $('#crystal2').on('click', function () {
         playerTotal = playerTotal + crystal2;
         console.log("New playerTotal= " + playerTotal);
-        $('#finalTotal').text(playerTotal);
+        $('#playerScore').text(playerTotal);
         if (playerTotal == targetNumber) {
             winna();
         }
@@ -74,7 +74,7 @@ $(document).ready(function () {
     $('#crystal3').on('click', function () {
         playerTotal = playerTotal + crystal3;
         console.log("New playerTotal= " + playerTotal);
-        $('#finalTotal').text(playerTotal);
+        $('#playerScore').text(playerTotal);
         //sets win/lose conditions
         if (playerTotal == targetNumber) {
             winna();
@@ -86,7 +86,7 @@ $(document).ready(function () {
     $('#crystal4').on('click', function () {
         playerTotal = playerTotal + crystal4;
         console.log("New playerTotal= " + playerTotal);
-        $('#finalTotal').text(playerTotal);
+        $('#playerScore').text(playerTotal);
 
         if (playerTotal == targetNumber) {
             winna();
